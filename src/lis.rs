@@ -70,7 +70,6 @@ pub fn max_envelopes_1(envelopes: Vec<Vec<i32>>) -> i32 {
     // 牌堆数初始化为 0
     let mut piles: i32 = 0;
     for poker in &array {
-
         /***** 搜索左侧边界的二分查找 *****/
         let mut left = 0;
         let mut right = piles;
