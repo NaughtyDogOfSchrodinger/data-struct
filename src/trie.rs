@@ -45,7 +45,6 @@ impl Trie {
 mod test {
     use crate::trie::Trie;
     use rand::Rng;
-    use std::collections::BinaryHeap;
 
     #[test]
     fn test_insert_and_query() {

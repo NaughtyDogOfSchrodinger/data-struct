@@ -1,3 +1,4 @@
+mod binary_heap;
 mod bloom_filter;
 mod bst_new;
 mod dijkstra;
